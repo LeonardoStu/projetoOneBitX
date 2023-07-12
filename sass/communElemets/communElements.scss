@@ -64,15 +64,21 @@
         width: 180px;
         margin-top: 15px;
     }
-
+    
     .footer{
         font-size: 10px;
     }
 }
-
 @media(max-width: 350px){
     .logoPc{
         width: 150px;
         margin-top: 15px;
     }   
+}
+@media(max-width: 449px){
+    .downloadDesc{
+        button{
+            margin: 10px 0px;
+        }
+    }
 }
