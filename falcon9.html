@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <!-- lib text css-->
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 
@@ -36,7 +36,7 @@
                                     <a class="nav-link active" aria-current="page" href="/falcon9.html" id="navItem">FALCON 9</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/humamFlight.html" id="navItem">HUMAN SPACE FLIGHT</a>
+                                    <a class="nav-link active" href="./humanSpace.html" id="navItem">HUMAN SPACE FLIGHT</a>
                                 </li>
                             </ul>
                         </div>
@@ -45,7 +45,7 @@
             </header>
         </div>
         
-       <div class="container text-center titleContent">
+       <div class="container text-center titleContent" data-aos="fade-up" data-aos-duration="1500">
             <p class="h1 titleFalcon9">Falcon 9</p>
 
             <p class="h5 subTitleFalcon">PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
@@ -54,17 +54,17 @@
 
     <div class="container-fluid numbers">
        <div class="row text-center">
-            <div class="col sm col1">
+            <div class="col sm col1" data-aos="flip-left" data-aos-duration="500">
                 <p class="h1 titleNumb">126</p>
 
                 <p class="subTitleNumb">LANÇAMENTOS TOTAIS</p>
             </div>
-            <div class="col ">
+            <div class="col" data-aos="flip-left" data-aos-duration="1000">
                 <p class="h1 titleNumb">86</p>
 
                 <p class="subTitleNumb">DESEMBARQUES TOTAIS</p>
             </div>
-            <div class="col sm col3">
+            <div class="col sm col3" data-aos="flip-left" data-aos-duration="1500">
                 <p class="h1 titleNumb">68</p>
 
                 <p class="subTitleNumb">FOGUETES RECUPERADOS</p>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="container-fluid container00 container06">
-        <div class="container containerFalcon9Desc">
+        <div class="container containerFalcon9Desc" data-aos="fade-right" data-aos-duration="1500">
             <p class="falcon9Desc">
                 O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o
             transporte confiável e seguro de pessoas e cargas úteis para a órbita da Terra e além. Falcon 9 é o
@@ -93,7 +93,7 @@
 
                     <table class="table" id="widthTable">
                         <tbody>
-                            <tr data-aos="fade-right" data-aos-duration="1500" class="bg-transparent">
+                            <tr data-aos="fade-right" data-aos-duration="1500">
                                 <td>ALTURA</td>
                                 <td class="text-end">70 m<span class="corEscuraTxt">/ 229.6 f</span></td>
                             </tr>
@@ -227,7 +227,7 @@
     </div>
 
     <div class="container-fluid container00 container07">
-        <div class="container" id="overViewPosition">
+        <div class="container" id="overViewPosition" data-aos="fade-right" data-aos-duration="1500">
             <p class="subTitleOverView">FALCON 9</p>
 
             <p class="h3 titleOverView">MERLIN</p>
@@ -333,7 +333,7 @@
     <div class="container-fluid text-center downloadDesc">
         <p data-aos="fade-right" data-aos-duration="1200">
             <span>Para mais informações sobre os serviçoes entre emcontatocom</span>
-            <a href="https://www.instagram.com/onebitcode/" target="blank">onebitcode@gmail.com</a>
+            <a href="https://www.instagram.com/onebitcode/" target="blank" class="emailObc">onebitcode@gmail.com</a>
         </p>
 
 
@@ -349,11 +349,15 @@
         <span class="me-4 copyOBC">LeonardoSouzaSantos&copy;2023</span>
         <a href="https://www.instagram.com/le0_stu/" target="_blank" class="me-4">Instagram</a>
         <a href="https://www.youtube.com/" target="_blank" class="me-4">YouTube</a>
-        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fexplore" target="_blank">Twitter</a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fexplore" target="_blank" class="text-center">Twitter</a>
     </footer>
 
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <!-- lib text script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
